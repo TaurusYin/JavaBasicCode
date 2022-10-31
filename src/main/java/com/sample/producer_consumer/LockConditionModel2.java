@@ -60,6 +60,7 @@ public class LockConditionModel2 implements Model {
             System.out.println("consume: " + task.no);
         }
     }
+
     private class ProducerImpl extends AbstractProducer implements Producer, Runnable {
         @Override
         public void produce() throws InterruptedException {
